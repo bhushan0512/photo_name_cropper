@@ -1,0 +1,59 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.db
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+ENV/
+env/
+*.egg-info/
+*.egg
+*.nib
+*.coverage
+*.tox
+*.pytest_cache
+*.mypy_cache
+*.nox
+*.coverage
+*.hypothesis/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.gz
+*.zip
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tmp
+*.bak
+*.swp
+
+# Ignore the contents of input and output folders
+input/
+output/
+
+# Ensure virtual environment folders are ignored
+!venv/*
